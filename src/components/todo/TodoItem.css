@@ -1,0 +1,39 @@
+.todoItemContainer{
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: burlywood;
+    border-radius: 7px;
+    -webkit-box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.58); 
+    box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.58);
+    
+}
+.todoItemContainer:hover{
+    opacity:  0.8 ;
+}
+.todoItemTitle{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+.todoItemInput{
+    margin: 10px;
+    padding: 7px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+.add{
+    margin:10px ;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(184, 209, 239);
+}
+
+.add:hover{
+    background-color: rgb(12, 12, 217);
+
+} 

@@ -1,0 +1,43 @@
+
+
+.card_body{
+    background-color: rgb(28, 28, 66);
+    border: solid 1px black;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    -webkit-box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.58); 
+     box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.58);
+    
+
+}
+
+.card_body:hover{
+  opacity:  0.8 ;
+}
+.card_title{
+    text-align: center;
+   
+
+}
+.card_student{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container_button{
+    display: flex;
+    justify-content: space-around;
+}
+.completar{
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    border: none;
+    height: 1.9rem;
+    border-radius: 5px;
+}

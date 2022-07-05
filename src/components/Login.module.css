@@ -1,0 +1,99 @@
+.loginContainer{
+    margin: auto;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(18, 18, 49);
+    border-radius: 7px;
+    -webkit-box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.58); 
+    box-shadow: 7px 6px 9px -4px rgba(0,0,0,0.58);
+    
+}
+
+.titleLogin{
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+}
+
+.formContainer{
+    display: block;
+    margin-left: 1rem;
+    margin-top: 10%; 
+}
+
+
+
+.loginContent{
+    display: block;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+}
+
+.loginLabel{
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.login{
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.loginGoogle{
+    margin-top: 8px;
+    margin-left: 23px;
+    padding: 7px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.register{
+    color: red;
+    margin-left:23px;
+    font-size: 9px;
+}
+
+.linkRegister{
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    margin-top: 11px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.resetPassword{
+    
+    text-decoration: none;
+    margin-left: 1rem;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .loginContainer{
+        margin:auto;
+       }
+}
